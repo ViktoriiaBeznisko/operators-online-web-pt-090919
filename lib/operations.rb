@@ -4,7 +4,7 @@ def unsafe?(answer)
   if answer < 40
     return "true"
 end
-
+end
 
 
 def not_safe?(speed)
