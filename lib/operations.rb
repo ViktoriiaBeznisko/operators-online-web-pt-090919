@@ -11,7 +11,7 @@ end
 
 def not_safe?(speed)
   
-	if speed < 40 ? true : false
+	speed < 40 ? true : false
 	elsif speed > 60 
     return true
 	#else 
