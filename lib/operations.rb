@@ -1,4 +1,4 @@
-def unsafe?(speed)
+def unsafe?(answer)
   #if speed
    
   speed < 40 ? true : false
