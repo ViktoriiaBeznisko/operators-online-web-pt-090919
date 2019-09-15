@@ -1,5 +1,5 @@
 def unsafe?(answer)
-  #if speed
+  answer > 60 ? true : false
    
   answer < 40 ? true : false
 end
