@@ -2,7 +2,7 @@ def unsafe?(answer)
   #answer > 60 ? true : false
   #answer < 40 ? true : false
   if answer < 40
-    true
+    return true
 end
 
 
